@@ -1,0 +1,24 @@
+/* CSS Document */
+
+body
+{
+margin:0 auto;
+}
+
+a
+{
+color:#000000;
+
+}
+
+a hover
+{
+text-decoration:none;
+color:#33FFFF;
+}
+
+table
+{
+background-color:#666666;
+
+}

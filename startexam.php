@@ -1,0 +1,15 @@
+<?php 
+if(!isset($webRoot))
+{
+$webRoot="./";
+}
+include($webRoot."includes/common.php");
+if(isset($_REQUEST["start"])){
+header("Location:exam1.php?");
+session_start();
+$_SESSION["mark"]=0;
+$_SESSION["id"]=1;
+}
+header("Location:exam1.php?id=1");
+$smarty->display("startexam.tpl");
+?>
